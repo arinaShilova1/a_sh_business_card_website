@@ -1,10 +1,13 @@
 body {background-color: #B2C382;}
 
-header {
+.header {
     background-color: #B2C382;
-    height: 118px;
     width: 614px;
-    margin: 51px auto;
+    height: 118px;
+    margin-top: 64px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
 }
 
 .personal-data {
@@ -16,8 +19,7 @@ display: flex;
     font-weight: 400;
     font-size: 30px;
     color: #000000;
-    margin-top: 14px;
-    margin-left: 45px;
+    margin: 14px 0px 12px 45px;
 }
 
 .personal-name p {
@@ -25,22 +27,123 @@ display: flex;
     font-weight: 400;
     font-size: 18px;
     color: #000000;
-    margin-top: 14px;
-    margin-left: 45px;
+    margin: 0px 0px 0px 45px;
 }
 
 .personal-data img {
     width: 96px;
-    height: 96px;
+    height: 91px;
     border-radius: 10px;
-    margin-left: 108px;
+    margin: 0px 0px 24px 108px;
 }
 
 header hr{
     border: none;
-	border-top: 3px solid black
+	border-top: 3px solid black;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
 }
 
-.wrapper {
+.about {
+    background-color: white;
+    width: 614px;
+    height: 220px;
     margin-top: 51px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+
+}
+
+.about p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    padding-top: 22px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.about-list ul {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 24px;
+    margin-right: 49px;
+    margin-bottom: 50px;
+    margin-left: 45px;
+}
+
+.tools {
+    width: 599px;
+    height: 126px;
+    margin-top: 47px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+}
+
+.tools p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.tools-icons {
+    width: 599px;
+}
+
+img#postman {
+    margin-top: 27px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+}
+
+img#vscode {
+    margin-top: 27px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+}
+
+img#figma {
+    margin-top: 28px;
+    margin-right: 0px;
+    margin-bottom: 17px;
+    margin-left: 20px;
+}
+
+img#confluence {
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+}
+
+img#slack {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 6px;
+}
+
+img#asana {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
