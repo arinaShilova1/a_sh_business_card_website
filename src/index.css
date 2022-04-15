@@ -4,7 +4,7 @@ header {
     background-color: #B2C382;
     height: 118px;
     width: 614px;
-    margin: 64px auto;
+    margin: 51px auto;
 }
 
 .personal-data {
@@ -39,4 +39,8 @@ display: flex;
 header hr{
     border: none;
 	border-top: 3px solid black
+}
+
+.wrapper {
+    margin-top: 51px;
 }
