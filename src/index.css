@@ -1,0 +1,42 @@
+body {background-color: #B2C382;}
+
+header {
+    background-color: #B2C382;
+    height: 118px;
+    width: 614px;
+    margin: 64px auto;
+}
+
+.personal-data {
+display: flex;
+}
+
+.personal-name h1 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 14px;
+    margin-left: 45px;
+}
+
+.personal-name p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 14px;
+    margin-left: 45px;
+}
+
+.personal-data img {
+    width: 96px;
+    height: 96px;
+    border-radius: 10px;
+    margin-left: 108px;
+}
+
+header hr{
+    border: none;
+	border-top: 3px solid black
+}
