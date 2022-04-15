@@ -147,3 +147,50 @@ img#asana {
     margin-bottom: 30px;
     margin-left: 20px;
 }
+
+.certificates {
+    background-color: white;
+    width: 614px;
+    height: 309px;
+    margin-top: 47px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+}
+
+.certificates p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    padding-top: 22px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.certificates-img {
+    width: 614px;
+}
+
+img#htmlcss {
+    width: 279px;
+    height: 191px;
+    margin-top: 38px;
+    margin-right: 0px;
+    margin-bottom: 36px;
+    margin-left: 17px;
+}
+
+img#practicum {
+    width: 279px;
+    height: 185px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    margin-top: 33px;
+    margin-right: 0px;
+    margin-bottom: 42px;
+    margin-left: 14px;
+}
