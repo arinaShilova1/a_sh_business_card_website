@@ -47,7 +47,8 @@ header hr{
 }
 
 .about {
-    background-color: white;
+    background-color: #FFFFFF;
+    border-radius: 3px;
     width: 614px;
     height: 220px;
     margin-top: 51px;
@@ -94,7 +95,7 @@ header hr{
     font-family: 'Inter';
     font-weight: 500;
     font-size: 18px;
-    color: #000;
+    color: #000000;
     text-align: center;
     margin-top: 0px;
     margin-right: 0px;
@@ -149,7 +150,8 @@ img#asana {
 }
 
 .certificates {
-    background-color: white;
+    background-color: #FFFFFF;
+    border-radius: 3px;
     width: 614px;
     height: 309px;
     margin-top: 47px;
@@ -162,7 +164,7 @@ img#asana {
     font-family: 'Inter';
     font-weight: 500;
     font-size: 18px;
-    color: #000;
+    color: #000000;
     text-align: center;
     padding-top: 22px;
     margin-top: 0px;
@@ -193,4 +195,74 @@ img#practicum {
     margin-right: 0px;
     margin-bottom: 42px;
     margin-left: 14px;
+}
+
+.experience {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    width: 614px;
+    height: 429px;
+    margin-top: 44px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;  
+}
+
+.experience p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    padding-top: 29px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.experience table {
+    table-layout: auto;
+    background: #F5F3F3;
+    border-collapse: collapse;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    width: 529px;
+    height: 315px;
+    margin-top: 29px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.experience table th, td {
+    border: 2px solid #FFFFFF;
+}
+
+.col1 {
+    width: 30%;
+}
+
+.col2 {
+    width: 25%;
+}
+
+.col3 {
+    width: 45%;
+}
+
+.duration {
+    vertical-align: top;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.position {
+    vertical-align: top;
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-right: 30px;
 }
