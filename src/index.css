@@ -71,15 +71,21 @@ header hr{
     margin-left: 0px;
 }
 
+.about-list {
+    background: #FFFFFF;
+    width: 520px;
+    height: 102px;
+    margin-top: 24px;
+    margin-right: 49px;
+    margin-bottom: 50px;
+    margin-left: 45px;
+}
+
 .about-list ul {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 14px;
     color: #000000;
-    margin-top: 24px;
-    margin-right: 49px;
-    margin-bottom: 50px;
-    margin-left: 45px;
 }
 
 .tools {
@@ -265,4 +271,71 @@ img#practicum {
     padding-top: 20px;
     padding-left: 22px;
     padding-right: 30px;
+}
+
+.footer {
+    background-color: #B2C382;
+    width: 614px;
+    height: 94px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 85px;
+}
+
+.footer hr{
+    border: none;
+	border-top: 3px solid black;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.footer p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    padding-top: 21px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.contacts {
+        display: flex;
+}
+
+p#phone {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    padding-top: 31px;
+    padding-left: 55px;
+}
+
+p#telegram {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    padding-top: 31px;
+    padding-left: 35px;
+}
+
+p#github {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    padding-top: 31px;
+    padding-left: 35px;
+}
+
+.link {
+    color: inherit
 }
