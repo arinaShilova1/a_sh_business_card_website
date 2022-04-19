@@ -273,6 +273,112 @@ img#practicum {
     padding-right: 30px;
 }
 
+.meme  {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    width: 614px;
+    height: 430px;
+    margin-top: 44px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;  
+}
+
+.meme p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    padding-top: 29px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+iframe {
+    width: 529px;
+    height: 315px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 42px;
+    margin-bottom: 0px; 
+}
+
+.feedback  {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    width: 614px;
+    height: 330px;
+    margin-top: 44px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;  
+}
+
+.feedback p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    padding-top: 29px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+form {
+    background: #F5F3F3;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 529px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px; 
+}
+
+form h6 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    text-align:left;
+    padding-top: 25px;
+    padding-left: 35px;
+    margin: 0px 0px 0px 0px;
+}
+
+textarea {
+    width: 467px;
+    height: 66px;
+    border: solid 1px #FFFFFF;
+    border-radius: 3px;
+    border-style: inset;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 35px;
+    margin-bottom: 0px; 
+}
+
+.form-tools {
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+.bottom {
+    padding-left: 240px;
+}
+
 .footer {
     background-color: #B2C382;
     width: 614px;
