@@ -376,7 +376,10 @@ textarea {
 }
 
 .bottom {
-    padding-left: 240px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 240px;
+    margin-bottom: 0px;
 }
 
 .footer {
