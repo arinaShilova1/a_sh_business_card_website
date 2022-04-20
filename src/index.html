@@ -13,13 +13,13 @@
             <img src="assets/images/cute_cat.png" alt="Фото котика">
             <div class="personal-name">
                 <h1>Шилова Арина</h1>  
-                <p>QA Engineer</p>
+                <p id="header-p">QA Engineer</p>
             </div>
         </div>
         <hr>
     </header>
     <div class="about">
-        <p>Факты обо мне</p>
+        <p id="about-p">Факты обо мне</p>
         <div class="about-list">
             <ul>
             <li>Работаю в КЕ с начала года;</li>
@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="tools">
-        <p>Я умею работать с:</p>
+        <p id="tools-p">Я умею работать с:</p>
         <div class="tools-icons">
             <img id="postman" src="assets/images/postman_logo.png" alt="Postman">  
             <img id="vscode" src="assets/images/vs_code_logo.png" alt="VS Code">  
@@ -42,14 +42,14 @@
         </div>
     </div>
     <div class="certificates">
-        <p>Мои сертификаты:</p>
+        <p id="certs-p">Мои сертификаты:</p>
         <div class="certificates-img">
             <img id="htmlcss" src="assets/images/html_css_diploma.png" alt="HTML CSS certificate">
             <img id="practicum" src="assets/images/practicum_diploma.jpg" alt="Yandex Practicum Diploma">
         </div>
     </div>
     <div class="experience">
-        <p>Опыт работы в IT:</p>
+        <p id="exp-p">Опыт работы в IT:</p>
             <table>
             <tr>
                 <th class="col1">Должность</th>
@@ -71,17 +71,17 @@
     </div>
     <div class="meme">
         <p>Любимый мем про тестировщика:</p>
-        <iframe src="https://www.youtube.com/embed/baY3SaIhfl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe name="video1" src="https://www.youtube.com/embed/baY3SaIhfl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="feedback">
         <p>Пожелай мне чего-нибудь</p>
-        <form>
+        <form name="form1">
         <h6>Напиши свое пожелание:</h6>
-        <textarea rows="4" cols="60"></textarea><br>
+        <textarea name="wishes" rows="4" cols="60"></textarea><br>
         <div class="form-tools">
-            <input type="checkbox">Отправить анонимно
+            <input type="checkbox" name="anon">Отправить анонимно
             <div class="bottom">
-                <input type="submit" value="Отправить">
+                <input type="submit" name="send" value="Отправить">
             </div>
         </div>
         </form>
