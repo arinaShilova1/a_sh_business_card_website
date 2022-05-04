@@ -21,18 +21,18 @@
     <div class="about">
         <p id="about-p">Факты обо мне</p>
         <div class="about-list">
-            <ul>
-            <li>Работаю в КЕ с начала года;</li>
-            <li> Постоянно занимаюсь самообразованием;</li>
-            <li> Хочу стать “мл. тестировщиком +” после окончания курсов по основам автоматизации;</li>
-            <li> Увлекаюсь творчеством Лавкрафта;</li>
-            <li> Люблю экзотические растения, подумываю завести венерину мухоловку.</li>
+            <ul data-test-id="list__about">
+            <li data-test-id="list__about__item">Работаю в КЕ с начала года;</li>
+            <li data-test-id="list__about__item"> Постоянно занимаюсь самообразованием;</li>
+            <li data-test-id="list__about__item"> Хочу стать “мл. тестировщиком +” после окончания курсов по основам автоматизации;</li>
+            <li data-test-id="list__about__item"> Увлекаюсь творчеством Лавкрафта;</li>
+            <li data-test-id="list__about__item"> Люблю экзотические растения, подумываю завести венерину мухоловку.</li>
             </ul>
         </div>
     </div>
     <div class="tools">
         <p id="tools-p">Я умею работать с:</p>
-        <div class="tools-icons">
+        <div data-test-id="block__tools" class="tools-icons">
             <img id="postman" src="assets/images/postman_logo.png" alt="Postman">  
             <img id="vscode" src="assets/images/vs_code_logo.png" alt="VS Code">  
             <img id="figma" src="assets/images/figma_logo.png" alt="Figma">
@@ -50,18 +50,18 @@
     </div>
     <div class="experience">
         <p id="exp-p">Опыт работы в IT:</p>
-            <table>
-            <tr>
+            <table data-test-id="table__exp">
+            <tr data-test-id="table__exp__header"> 
                 <th class="col1">Должность</th>
                 <th class="col2">Стаж</th>
                 <th class="col3">Обязанности</th>
             </tr>
-            <tr>
+            <tr data-test-id="table__exp__row">
                 <td class="position">Асессор в Яндексе</td>
                 <td class="duration">4 месяца</td>
                 <td class="position">Тестирование приложений Яндекса по готовым чек-листам и тест-кейсам.</td>
             </tr>
-            <tr>
+            <tr data-test-id="table__exp__row">
                 <td class="position">QA Engineer в КЕ</td>
                 <td class="duration">3 месяца</td>
                 <td class="position">Тестирование приложений, составление тестовой документации, заведение баг-репортов.<br><br>Помощь новым коллегам.
@@ -70,7 +70,7 @@
         </table>
     </div>
     <div class="meme">
-        <p>Любимый мем про тестировщика:</p>
+        <p data-test-id="text__meme">Любимый мем про тестировщика:</p>
         <iframe name="video1" src="https://www.youtube.com/embed/baY3SaIhfl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="feedback">
@@ -92,7 +92,7 @@
          <div class="contacts">  
             <p id="phone">Телефон: +7 905 286 98 98</p>
             <p id="telegram">Telegram: <a class="link" href="tg://resolve?domain=shishi88" target="_blank">@shishi88</a></p>
-            <p id="github">GitHub: <a class="link" href="https://github.com/arishilova" target="_blank">@arishilova</a></p>
+            <p id="github">GitHub: <a data-test-id="link__github" class="link" href="https://github.com/arishilova" target="_blank">@arishilova</a></p>
         </div>
     </footer>  
 </body>
