@@ -16,4 +16,4 @@ wishes в .feedback textarea
 anon в .form-tools input
 send в .bottom input
 
-![alt text](../a_sh_business_card_website/src/assets/images/QAteam.png)
+![alt text](https://github.com/arishilova/a_sh_business_card_website/tree/main/src/assets/images/QAteam.png)
